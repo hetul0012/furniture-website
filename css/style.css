@@ -1,0 +1,1982 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+    
+body {
+    --main-color: black;
+    --primary-color: white;
+    --third-background: #E4EEF0;
+    --second-background: #F4F5F7;
+    --background-color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-color);
+}
+
+h3,
+h4 {
+    font-family: 'Arial', sans-serif;
+    color: var(--main-color);
+}
+
+li {
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------------------------------Our menu style----------------------- */
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+
+/* Left side menu */
+
+header nav .left-side-menu {
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+
+header nav .left-side-menu .logo img {
+    width: 100px;
+    padding: 5px;
+
+}
+
+header nav .left-side-menu .hamburger {
+    display: none;
+}
+
+header nav .left-side-menu .sub-menu ul {
+
+    display: flex;
+}
+
+header nav .left-side-menu .sub-menu li {
+
+    padding-left: 50px;
+}
+
+header nav .left-side-menu .sub-menu li a {
+
+    font-family: 'Gabarito', cursive;
+
+}
+
+header nav .left-side-menu .sub-menu li a:hover {
+
+    color: #B2170E;
+}
+
+header nav .left-side-menu .sub-menu li a.active {
+
+    color: #B2170E;
+}
+
+header nav .right-side-menu {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+/* --------------------------- Home section --------------------------- */
+.main {
+    width: 100%;
+    display: flex;
+}
+
+/* --------------------------- Main left side --------------------------- */
+
+.main .main-left {
+    width: 60%;
+    height: 705px;
+
+}
+
+.main .main-left h1 {
+    margin-left: 100px;
+    margin-top: 50px;
+    line-height: 100px;
+    width: 60%;
+    font-size: 90px;
+
+}
+
+.main .main-left p {
+    width: 500px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.main .main-left button {
+    margin-top: 40px;
+    width: 120px;
+    margin-left: 100px;
+    background-color: var(--main-color);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main .main-left-social {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.main .main-left-social i {
+
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+/* --------------------------- Main right side --------------------------- */
+
+.main .main-right {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+
+.main .main-right img {
+    margin-left: 15px;
+    width: 550px;
+    height: 705px;
+}
+
+.main .right-chair {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+
+}
+
+.main .right-chair img {
+    width: 500px;
+    height: 550px;
+    margin-top: 150px;
+    /* margin-left: -450px; */
+}
+
+/* ----------------- about section -------------------- */
+
+.about-container {
+    width: 100%;
+    display: flex;
+}
+
+/* left side */
+.about-container .left-side {
+    width: 50%;
+
+}
+
+.about-container .left-side img {
+    width: 400px;
+    border-radius: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* right side */
+.about-container .right-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about-container .right-side h2 {
+    width: 700px;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: bold;
+
+    text-transform: capitalize;
+}
+
+.about-container .right-side p {
+    width: 600px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-container .right-side a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* ----------------- collection section -------------------- */
+.ourcollection {
+    width: 100%;
+    background: var(--second-background);
+    /* padding: 1rem 15rem; */
+    margin: auto;
+
+}
+
+.ourcollection h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.ourcollection .collection-container {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+.ourcollection .collection-container img {
+    margin: 5px;
+    width: 450px;
+}
+
+
+/* -----------------  support section -------------------- */
+
+.our-support {
+    width: 100%;
+}
+
+.our-support h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.our-support .our-support-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.our-support .our-support-task .task-1,
+.our-support .our-support-task .task-2,
+.our-support .our-support-task .task-3 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.our-support .our-support-task .task-1 img,
+.our-support .our-support-task .task-2 img,
+.our-support .our-support-task .task-3 img {
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/* -----------------dicount section -------------------- */
+.dicount-section {
+    width: 100%;
+    height: auto;
+    padding: 2px 12px;
+    background-color: var(--third-background);
+}
+
+.dicount-section h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dicount-section p {
+    width: 800px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    color: grey;
+}
+
+
+.dicount-section .searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dicount-section .searchbar input {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 2px solid white;
+    height: 40px;
+    width: 600px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    position: relative;
+
+}
+
+.dicount-section .searchbar i {
+    font-size: 30px;
+    margin-left: -40px;
+    color: #4C4D4F;
+    position: absolute;
+    margin-top: -20px;
+}
+
+/* -----------------  brand section -------------------- */
+.brand-section {
+    width: 100%;
+
+}
+
+.brand-section h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.brand-section .brand-img {
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.brand-section .brand-img .img-1,
+.brand-section .brand-img .img-2,
+.brand-section .brand-img .img-3 {
+    margin: auto;
+}
+
+.brand-section .brand-img .img-1 img {
+
+    width: 350px;
+    height: 250px;
+}
+
+.brand-section .brand-img .img-2 img {
+    margin-top: 20px;
+    width: 270px;
+    height: 170px;
+}
+
+.brand-section .brand-img .img-3 img {
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+}
+
+.brand-section .brand-img .img-4 img {
+    margin-top: 50px;
+    width: 250px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+/* -----------------  section Footer -------------------- */
+footer {
+    background: var(--second-background);
+
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-col img {
+
+    width: 90px;
+    margin: 30px;
+}
+
+.row {
+    padding: 30px;
+    display: flex;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-family: 'Gabarito', cursive;
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-col ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    line-height: 40px;
+}
+
+.contact ul li a {
+    padding: 2px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #B2170E;
+    border: 2px solid #B2170E;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 130px;
+    text-align: center;
+}
+
+.contact ul li i {
+    padding: 0 10px 0 0;
+    margin: auto;
+
+}
+
+.name-container {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.name-container p {
+    font-family: 'Gabarito', cursive;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+/* -----------------  Rwsponsive website -------------------- */
+
+@media only screen and (max-width: 1920px) {
+
+    header nav .left-side-menu .sub-menu li {
+        padding-left: 80px;
+    }
+
+    header nav .left-side-menu .sub-menu li a {
+        font-size: 30px;
+
+    }
+
+    /* -----------------  Home Section -------------------- */
+    .main .main-left h1 {
+        margin-top: 150px;
+        margin-left: 100px;
+        width: 60%;
+        font-size: 120px;
+        line-height: 150px;
+    }
+
+    .main .main-left p {
+
+        width: 700px;
+        margin-left: 100px;
+        font-size: 25px;
+        text-align: left;
+
+    }
+
+    .main .main-left button {
+        margin-top: 70px;
+        width: 150px;
+        margin-left: 100px;
+        font-size: 20px;
+
+    }
+
+    .main .main-left-social {
+        margin-left: 100px;
+    }
+
+    .main .main-left-social i {
+        margin-top: 50px;
+        font-size: 60px;
+    }
+
+    .main .main-right img {
+
+        width: 750px;
+        height: 1080px;
+
+    }
+
+    .main .right-chair img {
+        width: 650px;
+        height: 700px;
+        margin-top: 350px;
+        margin-left: -750px;
+    }
+
+    /* -----------------  about Section -------------------- */
+    .about-container .left-side img {
+        width: 500px;
+        margin-top: 350px;
+
+    }
+
+    .about-container .right-side h2 {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1620px) {
+
+    /* -----------------  Header Section -------------------- */
+    header nav .left-side-menu .sub-menu li {
+        padding-left: 60px;
+    }
+
+    /* -----------------  Home Section -------------------- */
+
+    .main .main-left h1 {
+        margin-top: 100px;
+        margin-left: 100px;
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+    .main .main-left p {
+
+        width: 600px;
+
+
+    }
+
+    .main .main-left button {
+        margin-top: 50px;
+        width: 150px;
+        margin-left: 100px;
+        font-size: 20px;
+
+    }
+
+    .main .main-left-social {
+        margin-left: 100px;
+    }
+
+    .main .main-left-social i {
+        margin-top: 30px;
+        font-size: 50px;
+    }
+
+    .main .main-right img {
+        width: 650px;
+        height: 800px;
+        margin-left: 0px;
+        overflow: hidden;
+
+    }
+
+    .main .right-chair img {
+
+        width: 500px;
+        height: 600px;
+        margin-top: 180px;
+        margin-left: -500px;
+    }
+
+    /* -----------------  about Section -------------------- */
+
+    .about-container .left-side img {
+        width: 350px;
+        margin-top: 100px;
+
+    }
+
+    .about-container .right-side h2 {
+        width: 100%;
+        margin-top: 50px;
+
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    /* -----------------  Home Section -------------------- */
+    .main .main-left h1 {
+        margin-left: 70px;
+        font-size: 75px;
+        margin-top: 70px;
+        line-height: 75px;
+        margin-bottom: 10px;
+    }
+
+    .main .main-left p {
+        font-size: 20px;
+        margin-left: 70px;
+        width: 500px;
+    }
+
+    .main .main-left button {
+
+        margin-left: 70px;
+
+    }
+
+    .main .main-left-social {
+
+        margin-left: 70px;
+    }
+
+    .main .main-right img {
+        overflow: hidden;
+        width: 500px;
+        height: 655px;
+
+    }
+
+
+    .main .right-chair img {
+
+        width: 450px;
+        height: 500px;
+        margin-left: -350px;
+        margin-top: 130px;
+    }
+
+    /* ----------------- about section -------------------- */
+
+
+    /* left side */
+
+
+    .about-container .left-side img {
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    /* right side */
+
+
+    .about-container .right-side h2 {
+        width: 500px;
+        font-size: 50px;
+        margin-top: 0px;
+
+    }
+
+    .about-container .right-side p {
+        width: 500px;
+        font-size: 17px;
+
+    }
+
+    /* ----------------- collection section -------------------- */
+
+
+    .ourcollection h2 {
+        font-size: 50px;
+
+    }
+
+    /* -----------------  support section -------------------- */
+
+
+    .our-support h2 {
+        font-size: 50px;
+
+    }
+
+
+    .our-support .our-support-task .task-1,
+    .our-support .our-support-task .task-2,
+    .our-support .our-support-task .task-3 {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .our-support .our-support-task .task-1 img,
+    .our-support .our-support-task .task-2 img,
+    .our-support .our-support-task .task-3 img {
+        width: 70px;
+        height: 70px;
+        margin-top: 90px;
+    }
+
+    /* -----------------dicount section -------------------- */
+
+    .dicount-section h2 {
+        font-size: 50px;
+
+    }
+
+    .dicount-section p {
+
+        font-size: 18px;
+
+    }
+
+    /* -----------------  brand section -------------------- */
+
+
+    .brand-section h2 {
+        font-size: 50px;
+
+    }
+
+
+    .brand-section .brand-img .img-1 img {
+
+        width: 220px;
+        height: 170px;
+    }
+
+    .brand-section .brand-img .img-2 img {
+        width: 200px;
+        height: 120px;
+    }
+
+    .brand-section .brand-img .img-3 img {
+
+        width: 250px;
+        height: 200px;
+    }
+
+    .brand-section .brand-img .img-4 img {
+        margin-top: 70px;
+        width: 200px;
+        height: 120px;
+
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+    /* -----------------  Header Section -------------------- */
+    header nav .left-side-menu .logo img {
+        width: 80px;
+        padding: 5px;
+
+    }
+
+    header nav .left-side-menu .sub-menu li {
+
+        padding-left: 30px;
+    }
+
+    header nav .left-side-menu .sub-menu li a {
+        font-size: 20px;
+
+    }
+
+    /* -----------------  Home Section -------------------- */
+    .main .main-left {
+
+        height: 500px;
+
+    }
+
+    .main .main-left h1 {
+        margin-left: 50px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .main .main-left p {
+        font-size: 15px;
+        margin-left: 50px;
+        width: 270px;
+    }
+
+
+    .main .main-left-social {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .main .main-left button {
+
+        width: 100px;
+        margin-left: 50px;
+        padding: 7px;
+        font-size: 13px;
+
+    }
+
+    .main .main-left-social i {
+
+        font-size: 30px;
+        padding: 7px;
+
+    }
+
+    .main .main-right img {
+        overflow: hidden;
+        width: 400px;
+        height: 560px;
+
+    }
+
+
+    .main .right-chair img {
+        margin-top: 140px;
+        width: 350px;
+        height: 400px;
+        margin-left: -180px;
+    }
+
+    /* ----------------- about section -------------------- */
+
+
+    /* left side */
+
+
+    .about-container .left-side img {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    /* right side */
+
+
+    .about-container .right-side h2 {
+        width: 400px;
+        font-size: 40px;
+
+    }
+
+    .about-container .right-side p {
+        width: 400px;
+        font-size: 15px;
+
+    }
+
+    /* ----------------- ourcollection section -------------------- */
+    .ourcollection h2 {
+        font-size: 40px;
+
+    }
+
+    .ourcollection .collection-container img {
+        margin: 5px;
+        width: 370px;
+    }
+
+    /* -----------------  support section -------------------- */
+
+
+    .our-support h2 {
+        font-size: 40px;
+
+    }
+
+
+    .our-support .our-support-task .task-1,
+    .our-support .our-support-task .task-2,
+    .our-support .our-support-task .task-3 {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .our-support .our-support-task .task-1 img,
+    .our-support .our-support-task .task-2 img,
+    .our-support .our-support-task .task-3 img {
+        width: 60px;
+        height: 60px;
+        margin-top: 70px;
+    }
+
+    /* -----------------dicount section -------------------- */
+
+    .dicount-section h2 {
+        font-size: 40px;
+
+    }
+
+    .dicount-section p {
+
+        font-size: 16px;
+
+    }
+
+    /* -----------------  brand section -------------------- */
+
+
+    .brand-section h2 {
+        font-size: 40px;
+
+    }
+
+
+    .brand-section .brand-img .img-1 img {
+        margin-top: 20px;
+        width: 180px;
+        height: 140px;
+    }
+
+    .brand-section .brand-img .img-2 img {
+        width: 180px;
+        height: 100px;
+    }
+
+    .brand-section .brand-img .img-3 img {
+
+        width: 200px;
+        height: 170px;
+    }
+
+    .brand-section .brand-img .img-4 img {
+
+        width: 170px;
+        height: 100px;
+
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+
+    header nav .left-side-menu .logo img {
+        /* -----------------  Header Section -------------------- */
+        width: 70px;
+        margin: 5px;
+        padding: 5px;
+
+    }
+
+
+    header nav .left-side-menu .sub-menu li {
+
+        padding-left: 15px;
+    }
+
+    header nav .left-side-menu .sub-menu li a {
+        font-size: 18px;
+
+    }
+
+
+    /* -----------------  Home Section -------------------- */
+    .main .main-left {
+
+        height: auto;
+
+    }
+
+    .main .main-left h1 {
+        margin-top: 50px;
+        margin-left: 40px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main .main-left p {
+        font-size: 12px;
+        margin-left: 40px;
+        width: 230px;
+    }
+
+
+    .main .main-left-social {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .main .main-left button {
+        margin-top: 20px;
+        width: 80px;
+        margin-left: 40px;
+        padding: 5px;
+        font-size: 12px;
+
+    }
+
+    .main .main-left-social i {
+
+        font-size: 30px;
+        padding: 7px;
+
+    }
+
+    .main .main-right img {
+
+        width: 300px;
+        height: 450px;
+
+    }
+
+
+    .main .right-chair img {
+        margin-top: 130px;
+        width: 250px;
+        height: 300px;
+        margin-left: -100px;
+    }
+
+    /* ----------------- about section -------------------- */
+
+
+    /* left side */
+
+
+    .about-container .left-side img {
+        width: 250px;
+        margin-bottom: 30px;
+    }
+
+    /* right side */
+
+
+    .about-container .right-side h2 {
+        width: 300px;
+        font-size: 35px;
+
+    }
+
+    .about-container .right-side p {
+        width: 300px;
+        font-size: 15px;
+
+    }
+
+    .about-container .right-side button {
+
+        padding: 7px;
+        width: 90px;
+
+    }
+
+    /* ----------------- ourcollection section -------------------- */
+
+    .ourcollection h2 {
+        font-size: 35px;
+
+    }
+
+    .ourcollection .collection-container img {
+        margin: 5px;
+        width: 280px;
+    }
+
+    /* -----------------  support section -------------------- */
+
+
+    .our-support h2 {
+        font-size: 35px;
+
+    }
+
+
+    .our-support .our-support-task .task-1,
+    .our-support .our-support-task .task-2,
+    .our-support .our-support-task .task-3 {
+        width: 160px;
+        height: 160px;
+
+    }
+
+    .our-support .our-support-task .task-1 img,
+    .our-support .our-support-task .task-2 img,
+    .our-support .our-support-task .task-3 img {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    /* -----------------  brand section -------------------- */
+
+
+    .brand-section h2 {
+        font-size: 35px;
+
+    }
+
+
+    .brand-section .brand-img .img-1 img {
+        margin-top: 30px;
+        width: 150px;
+        height: 100px;
+    }
+
+    .brand-section .brand-img .img-2 img {
+        width: 130px;
+        height: 90px;
+    }
+
+    .brand-section .brand-img .img-3 img {
+
+        width: 160px;
+        height: 150px;
+    }
+
+    .brand-section .brand-img .img-4 img {
+        margin-right: 5px;
+        width: 150px;
+        height: 90px;
+
+    }
+
+    /* -----------------dicount section -------------------- */
+
+
+    .dicount-section p {
+        width: 400px;
+       
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* -----------------  Header Section -------------------- */
+    header nav .left-side-menu .sub-menu li {
+
+        padding-left: 12px;
+    }
+
+    header nav .left-side-menu .sub-menu li a {
+        font-size: 15px;
+
+    }
+
+    /* -----------------  Home Section -------------------- */
+    .main .main-left h1 {
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main .main-left p {
+
+        margin-left: 20px;
+
+    }
+
+
+    .main .main-left-social {
+
+        margin-left: 20px;
+    }
+
+    .main .main-left button {
+        margin-top: 20px;
+        width: 80px;
+        margin-left: 20px;
+        padding: 5px;
+        font-size: 12px;
+
+    }
+
+    .main .main-left-social i {
+
+        font-size: 25px;
+        padding: 7px;
+
+    }
+
+    .main .main-right img {
+
+        width: 250px;
+        height: 450px;
+
+    }
+
+
+    .main .right-chair img {
+        margin-top: 130px;
+        width: 250px;
+        height: 300px;
+        margin-left: -30px;
+    }
+
+
+    /* ----------------- about section -------------------- */
+
+
+    /* left side */
+
+
+    .about-container .left-side img {
+        width: 220px;
+        height: 350px;
+
+    }
+
+    /* right side */
+
+
+    .about-container .right-side h2 {
+        width: 270px;
+        font-size: 30px;
+
+    }
+
+    .about-container .right-side p {
+        width: 250px;
+        font-size: 15px;
+
+    }
+
+    .about-container .right-side button {
+
+        padding: 7px;
+        width: 90px;
+
+    }
+
+    /* ----------------- collection section -------------------- */
+
+
+    .ourcollection h2 {
+        font-size: 30px;
+
+    }
+
+    /* -----------------  support section -------------------- */
+
+
+    .our-support h2 {
+        font-size: 30px;
+
+    }
+
+    .our-support .our-support-task {
+        display: block;
+    }
+
+    .our-support .our-support-task .task-1,
+    .our-support .our-support-task .task-2,
+    .our-support .our-support-task .task-3 {
+        margin: auto;
+        width: 220px;
+        height: 220px;
+        margin-bottom: 20px;
+    }
+
+    .our-support .our-support-task .task-1 img,
+    .our-support .our-support-task .task-2 img,
+    .our-support .our-support-task .task-3 img {
+        width: 70px;
+        height: 70px;
+        margin-top: 70px;
+    }
+
+    /* -----------------dicount section -------------------- */
+
+    .dicount-section h2 {
+        font-size: 30px;
+
+    }
+
+    .dicount-section p {
+        width: 480px;
+        font-size: 15px;
+
+    }
+
+    .dicount-section .searchbar input {
+
+        height: 35px;
+        width: 400px;
+
+
+    }
+
+    .dicount-section .searchbar i {
+        font-size: 27px;
+
+        margin-top: -18px;
+    }
+
+    /* -----------------  brand section -------------------- */
+
+    .brand-section .brand-img {
+        display: block;
+        text-align: center;
+
+    }
+
+    .brand-section h2 {
+        font-size: 30px;
+
+    }
+
+
+    .brand-section .brand-img .img-1 img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .brand-section .brand-img .img-2 img {
+        width: 200px;
+        height: 120px;
+    }
+
+    .brand-section .brand-img .img-3 img {
+
+        width: 250px;
+        height: 200px;
+    }
+
+    .brand-section .brand-img .img-4 img {
+        margin-top: 20px;
+        width: 250px;
+        height: 150px;
+
+    }
+
+    /* -----------------  section Footer -------------------- */
+
+    .footer-col img {
+        width: 70px;
+    }
+
+    .row {
+        padding: 20px;
+
+    }
+
+    .footer-col h4 {
+        font-size: 15px;
+
+    }
+
+    .footer-col ul li a {
+        font-size: 15px;
+
+    }
+
+    .contact ul li a {
+        font-size: 14px;
+        width: 110px;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    /* -----------------  Home Section -------------------- */
+    .main .main-left h1 {
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main .main-left p {
+        font-size: 11px;
+        margin-left: 30px;
+        width: 200px;
+    }
+
+
+    .main .main-left-social {
+
+        margin-left: 30px;
+    }
+
+    .main .main-left button {
+        margin-top: 20px;
+        width: 70px;
+        margin-left: 30px;
+        padding: 2px;
+        font-size: 10px;
+
+    }
+
+    .main .main-left-social i {
+
+        font-size: 20px;
+        padding: 7px;
+
+    }
+
+    .main .main-right img {
+        margin-left: 40px;
+        width: 200px;
+        height: 350px;
+
+    }
+
+
+    .main .right-chair img {
+        margin-top: 80px;
+        width: 200px;
+        height: 250px;
+        margin-left: 70px;
+    }
+
+
+    /* ----------------- about section -------------------- */
+
+
+    /* left side */
+
+
+    .about-container .left-side img {
+        width: 200px;
+        height: 320px;
+
+    }
+
+    /* right side */
+
+
+    .about-container .right-side h2 {
+        width: 230px;
+        font-size: 27px;
+
+    }
+
+    .about-container .right-side p {
+        width: 230px;
+        font-size: 15px;
+
+    }
+
+    .about-container .right-side button {
+
+        padding: 7px;
+        width: 90px;
+
+    }
+
+    /* ----------------- ourcollection section -------------------- */
+
+    .ourcollection h2 {
+        font-size: 27px;
+
+    }
+
+    /* -----------------dicount section -------------------- */
+
+    .dicount-section h2 {
+        font-size: 27px;
+
+    }
+
+    .dicount-section p {
+        width: 300px;
+        font-size: 15px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    /* -----------------  Header Section -------------------- */
+
+    header nav .left-side-menu .logo img {
+        margin-top: 5px;
+        width: 70px;
+    }
+
+
+
+    header nav .right-side-menu .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    header nav .right-side-menu .hamburger .line {
+
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 6px 0;
+    }
+
+    header nav .left-side-menu .sub-menu {
+        height: 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: black;
+        transition: 0.5s;
+        overflow: hidden;
+        z-index: 1;
+
+    }
+
+
+    header nav .left-side-menu .sub-menu ul {
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        display: block;
+        margin-top: 30px;
+    }
+
+    header nav .left-side-menu .sub-menu li a {
+
+        line-height: 60px;
+        width: 100%;
+        color: white;
+        font-size: 30px;
+    }
+
+    header nav .left-side-menu .sub-menu.active {
+
+        height: 300px;
+    }
+
+    header nav .left-side-menu .sub-menu.active ul {
+        opacity: 1;
+    }
+
+
+    /* --------------------------- Home section --------------------------- */
+    .main {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* --------------------------- Main left side --------------------------- */
+
+    .main .main-left {
+        display: block;
+        width: 100%;
+
+    }
+
+    .main .main-left h1 {
+        margin-left: 30px;
+        line-height: 70px;
+        width: 80%;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .main .main-left p {
+        margin-left: 30px;
+        width: 310px;
+        font-size: 17px;
+        text-align: left;
+    }
+
+    .main .main-left button {
+        margin-left: 30px;
+        margin-top: 40px;
+        padding: 7px;
+        width: 90px;
+        font-size: 12px;
+
+    }
+
+    .main .main-left-social {
+        margin-left: 30px;
+        margin-top: 20px;
+
+    }
+
+    .main .main-left-social i {
+
+        font-size: 30px;
+        padding: 10px;
+
+    }
+
+    /* --------------------------- Main right side --------------------------- */
+
+    .main .main-right {
+
+        display: none;
+    }
+
+    .main .right-chair {
+        display: none;
+
+    }
+
+    .main .right-chair img {
+        display: none;
+    }
+
+
+    /* ----------------- about section -------------------- */
+    .about-container {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* left side */
+    .about-container .left-side {
+        display: block;
+        width: 100%;
+
+    }
+
+
+    .about-container .left-side img {
+        margin-top: 40px;
+        width: 250px;
+        height: 320px;
+        margin-bottom: 40px;
+    }
+
+    /* right side */
+
+    .about-container .right-side {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .about-container .right-side h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .about-container .right-side p {
+        width: 300px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .about-container .right-side .button-group {
+        text-align: center;
+
+    }
+
+    .about-container .right-side button {
+        padding: 7px;
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    /* ----------------- ourcollection section -------------------- */
+
+    .ourcollection h2 {
+        font-size: 30px;
+
+    }
+
+    /* -----------------dicount section -------------------- */
+
+
+    .dicount-section p {
+        width: 300px;
+        font-size: 13px;
+
+    }
+
+    .dicount-section .searchbar input {
+
+        height: 30px;
+        width: 300px;
+
+
+    }
+
+    .dicount-section .searchbar i {
+        font-size: 22px;
+        margin-left: -35px;
+        margin-top: -16px;
+    }
+
+    /* ----------------- Footer section -------------------- */
+
+    .row {
+        width: 100%;
+        padding: 15px;
+        display: block;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer-col img {
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 80px;
+    }
+
+    .footer-col h4 {
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .footer-col ul li a {
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .contact ul li a {
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        width: 150px;
+
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    /* -----------------  Header Section -------------------- */
+
+    header nav .right-side-menu .hamburger {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+
+
+    /* --------------------------- Home section --------------------------- */
+
+
+    /* --------------------------- Main left side --------------------------- */
+
+
+    .main .main-left h1 {
+        margin-left: 10px;
+        line-height: 50px;
+
+        font-size: 45px;
+    }
+
+    .main .main-left p {
+        margin-left: 10px;
+        width: 260px;
+        font-size: 15px;
+
+    }
+
+    .main .main-left button {
+        margin-left: 10px;
+
+    }
+
+    .main .main-left-social {
+        margin-left: 10px;
+
+    }
+
+    .main .main-left-social i {
+
+        font-size: 25px;
+
+
+    }
+
+    /* --------------------------- Main right side --------------------------- */
+
+    .main .main-right {
+        display: none;
+    }
+
+    .main .right-chair img {
+        display: none;
+    }
+
+
+    /* ----------------- about section -------------------- */
+
+    /* left side */
+    .about-container .left-side {
+        display: block;
+        width: 100%;
+
+    }
+
+
+    .about-container .left-side img {
+
+        width: 200px;
+        height: 270px;
+
+    }
+
+    /* right side */
+
+    .about-container .right-side h2 {
+        text-align: center;
+        width: 280px;
+        font-size: 25px;
+
+    }
+
+    .about-container .right-side p {
+        width: 250px;
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    .about-container .right-side .button-group {
+        text-align: center;
+
+    }
+
+    .about-container .right-side button {
+        padding: 5px;
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    /* ----------------- ourcollection section -------------------- */
+
+    .ourcollection h2 {
+        font-size: 25px;
+
+    }
+
+    .ourcollection .collection-container img {
+        margin: 5px;
+        width: 200px;
+    }
+
+    /* -----------------  support section -------------------- */
+
+
+    .our-support h2 {
+        font-size: 25px;
+
+    }
+
+    .our-support .our-support-task .task-1,
+    .our-support .our-support-task .task-2,
+    .our-support .our-support-task .task-3 {
+
+        width: 180px;
+        height: 180px;
+
+    }
+
+    .our-support .our-support-task .task-1 img,
+    .our-support .our-support-task .task-2 img,
+    .our-support .our-support-task .task-3 img {
+        width: 60px;
+        height: 60px;
+        margin-top: 60px;
+    }
+
+    /* -----------------dicount section -------------------- */
+
+    .dicount-section h2 {
+        font-size: 25px;
+
+    }
+
+    .dicount-section p {
+        width: 250px;
+        font-size: 13px;
+
+    }
+
+    .dicount-section .searchbar input {
+
+        height: 30px;
+        width: 250px;
+
+
+    }
+
+    /* -----------------  brand section -------------------- */
+
+
+    .brand-section h2 {
+        font-size: 25px;
+
+    }
+
+
+    .brand-section .brand-img .img-1 img {
+
+        width: 200px;
+        height: 160px;
+    }
+
+    .brand-section .brand-img .img-2 img {
+        width: 160px;
+        height: 90px;
+    }
+
+    .brand-section .brand-img .img-3 img {
+
+        width: 200px;
+        height: 160px;
+    }
+
+    .brand-section .brand-img .img-4 img {
+
+        width: 200px;
+        height: 110px;
+
+    }
+}
